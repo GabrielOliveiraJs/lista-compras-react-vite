@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+* {
+    font-family: 'Fuzzy Bubbles', cursive, sans-serif;
+}
+
+:root {
+    --color-background: #e4f7f6;
+    --color-sheet: #FFFACD;
+    --color-title: #000;
+    --color-text: #000;
+    --color-line: #222;
+    --color-background-checkbox: #fff;
+    --color-outline-after: #5fd25f;
+    --color-outline: #666;
+    --color-text-btn: #000;
+    --color-background-btn: #B0C4DE;
+    --color-background-btn-hover: #87cefa;
+}
+
+.theme-main:root {
+    --color-background: #e4f7f6;
+    --color-sheet: #FFFACD;
+    --color-title: #000;
+    --color-text: #000;
+    --color-line: #222;
+    --color-background-checkbox: #fff;
+    --color-outline-after: #5fd25f;
+    --color-outline: #666;
+    --color-text-btn: #000;
+    --color-background-btn: #B0C4DE;
+    --color-background-btn-hover: #87cefa;
+}
+
+.theme-red:root {
+    --color-background: #6A040F;
+    --color-sheet: #370617;
+    --color-title: #f2f2f2;
+    --color-text: #f2f2f2;
+    --color-line: #edf6f9;
+    --color-background-checkbox: #edf6f9;
+    --color-outline-after: #5fd25f;
+    --color-outline: #F48C06;
+    --color-text-btn: #f2f2f2;
+    --color-background-btn: #FAA307;
+    --color-background-btn-hover: #FFBA08;
+}
+
+.theme-blue:root {
+    --color-background: #00B4D8;
+    --color-sheet: #ADE8F4;
+    --color-title: #03045E;
+    --color-text: #03045E;
+    --color-line: #03045E;
+    --color-background-checkbox: #f2f2f2;
+    --color-outline-after: #5fd25f;
+    --color-outline: #03045E;
+    --color-text-btn: #f2f2f2;
+    --color-background-btn: #023E8A;
+    --color-background-btn-hover: #0077B6;
+}
+
+.theme-green:root {
+    --color-background: #31572C;
+    --color-sheet: #ECF39E;
+    --color-title: #fdfffc;
+    --color-text: #222;
+    --color-line: #132A13;
+    --color-background-checkbox: #fdfffc;
+    --color-outline-after: #5fd25f;
+    --color-outline: #132A13;
+    --color-text-btn: #fdfffc;
+    --color-background-btn: #4F772D;
+    --color-background-btn-hover: #90A955;
+}
+
+.theme-pastel:root {
+    --color-background: #F8EDEB;
+    --color-sheet: #D8E2DC;
+    --color-title: #393d3f;
+    --color-text: #012a4a;
+    --color-line: #ffbfb3;
+    --color-background-checkbox: #fdfffc;
+    --color-outline-after: #5fd25f;
+    --color-outline: #ffbfb3;
+    --color-text-btn: #393d3f;
+    --color-background-btn: #FEC89A;
+    --color-background-btn-hover: #FFD7BA;
+}
+
+.theme-brown:root {
+    --color-background: #8A5A44;
+    --color-sheet: #B07D62;
+    --color-title: #eee2df;
+    --color-text: #f0e1dd;
+    --color-line: #774936;
+    --color-background-checkbox: #eee2df;
+    --color-outline-after: #5fd25f;
+    --color-outline: #774936;
+    --color-text-btn: #eee2df;
+    --color-background-btn: #774936;
+    --color-background-btn-hover: #9D6B53;
+}
+
+.theme-gold:root {
+    --color-background: #EDC531;
+    --color-sheet: #FFE169;
+    --color-title: #76520E;
+    --color-text: #76520E;
+    --color-line: #C9A227;
+    --color-background-checkbox: #eee2df;
+    --color-outline-after: #5fd25f;
+    --color-outline: #C9A227;
+    --color-text-btn: #76520E;
+    --color-background-btn: #ffd700;
+    --color-background-btn-hover: #ffed00;
+}
+
+.theme-dark:root {
+    --color-background: #000814;
+    --color-sheet: #edede9;
+    --color-title: #edf6f9;
+    --color-text: #001524;
+    --color-line: #22223b;
+    --color-background-checkbox: #f4f3ee;
+    --color-outline-after: #5fd25f;
+    --color-outline: #22223b;
+    --color-text-btn: #001524;
+    --color-background-btn: #edede9;
+    --color-background-btn-hover: #f7ede2;
+}

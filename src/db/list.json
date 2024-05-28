@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "itemName": "Pães",
+        "quantity": 2
+    },
+    {
+        "id": 2,
+        "itemName": "ovos",
+        "quantity": 12
+    },
+    {
+        "id": 3,
+        "itemName": "leite",
+        "quantity": 4
+    },
+    {
+        "id": 4,
+        "itemName": "margarina",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "itemName": "café",
+        "quantity": 1
+    }
+]
