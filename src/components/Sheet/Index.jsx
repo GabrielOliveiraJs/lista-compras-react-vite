@@ -16,11 +16,11 @@ const StyledSheet = styled.ul`
         }
 
         &::-webkit-scrollbar-track {
-            background: var(--color-background-btn);
+            background: var(--color-bg-scrollbar);
         }
 
         &::-webkit-scrollbar-thumb {
-            background-color: var(--color-text-btn);
+            background-color: var(--color-scrollbar);
             border-radius: 20px;
         }
     `

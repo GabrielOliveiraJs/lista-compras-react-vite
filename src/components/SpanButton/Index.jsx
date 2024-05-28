@@ -4,6 +4,8 @@ const StyledSpan = styled.span`
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--color-text-btn);
+    color: ${({type}) => type === 'setQuantity' ? 'var(--color-title)' : 'var(--color-text-btn)'};
     font-size: 1.6rem;
     transition: 0.4s;
     border: none;

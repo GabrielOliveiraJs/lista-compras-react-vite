@@ -16,6 +16,8 @@
     --color-text-btn: #000;
     --color-background-btn: #B0C4DE;
     --color-background-btn-hover: #87cefa;
+    --color-bg-scrollbar: #B0C4DE;
+    --color-scrollbar: #000;
 }
 
 .theme-main:root {
@@ -30,6 +32,8 @@
     --color-text-btn: #000;
     --color-background-btn: #B0C4DE;
     --color-background-btn-hover: #87cefa;
+    --color-bg-scrollbar: #B0C4DE;
+    --color-scrollbar: #000;
 }
 
 .theme-red:root {
@@ -44,6 +48,8 @@
     --color-text-btn: #f2f2f2;
     --color-background-btn: #FAA307;
     --color-background-btn-hover: #FFBA08;
+    --color-bg-scrollbar: #f2f2f2;
+    --color-scrollbar: #F48C06;
 }
 
 .theme-blue:root {
@@ -58,6 +64,8 @@
     --color-text-btn: #f2f2f2;
     --color-background-btn: #023E8A;
     --color-background-btn-hover: #0077B6;
+    --color-bg-scrollbar: #f2f2f2;
+    --color-scrollbar: #023E8A;
 }
 
 .theme-green:root {
@@ -72,6 +80,8 @@
     --color-text-btn: #fdfffc;
     --color-background-btn: #4F772D;
     --color-background-btn-hover: #90A955;
+    --color-bg-scrollbar: #fdfffc;
+    --color-scrollbar: #4F772D;
 }
 
 .theme-pastel:root {
@@ -86,6 +96,8 @@
     --color-text-btn: #393d3f;
     --color-background-btn: #FEC89A;
     --color-background-btn-hover: #FFD7BA;
+    --color-bg-scrollbar: #FEC89A;
+    --color-scrollbar: #393d3f;
 }
 
 .theme-brown:root {
@@ -100,6 +112,8 @@
     --color-text-btn: #eee2df;
     --color-background-btn: #774936;
     --color-background-btn-hover: #9D6B53;
+    --color-bg-scrollbar: #774936;
+    --color-scrollbar: #eee2df;
 }
 
 .theme-gold:root {
@@ -114,6 +128,8 @@
     --color-text-btn: #76520E;
     --color-background-btn: #ffd700;
     --color-background-btn-hover: #ffed00;
+    --color-bg-scrollbar: #ffd700;
+    --color-scrollbar: #76520E;
 }
 
 .theme-dark:root {
@@ -128,4 +144,6 @@
     --color-text-btn: #001524;
     --color-background-btn: #edede9;
     --color-background-btn-hover: #f7ede2;
+    --color-bg-scrollbar: #edede9;
+    --color-scrollbar: #8d99ae;
 }
