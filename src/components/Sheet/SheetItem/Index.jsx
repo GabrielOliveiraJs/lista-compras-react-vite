@@ -6,9 +6,10 @@ import { FaDeleteLeft } from "react-icons/fa6"
 const StyledSheetItem = styled.li`
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid var(--color-line);
     margin-bottom: 5px;
     padding: 10px 5px 0px 5px;
+    color: var(--color-text);
 `
 
 const StyledCheckbox = styled.input`

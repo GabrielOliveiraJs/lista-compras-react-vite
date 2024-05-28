@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Principal",
+        "className": "theme-main"
+    },
+    {
+        "id": 2,
+        "name": "Vermelho",
+        "className": "theme-red"
+    },
+    {
+        "id": 3,
+        "name": "Azul",
+        "className": "theme-blue"
+    },
+    {
+        "id": 4,
+        "name": "Verde",
+        "className": "theme-green"
+    },
+    {
+        "id": 5,
+        "name": "Pastel",
+        "className": "theme-pastel"
+    },
+    {
+        "id": 6,
+        "name": "Marrom",
+        "className": "theme-brown"
+    },
+    {
+        "id": 7,
+        "name": "Dourado",
+        "className": "theme-gold"
+    },
+    {
+        "id": 8,
+        "name": "Escuro",
+        "className": "theme-dark"
+    }
+]
