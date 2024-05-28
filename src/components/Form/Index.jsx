@@ -2,7 +2,7 @@ import { MdAddCircleOutline, MdOutlineRemoveCircleOutline, MdOutlinePlaylistAdd 
 import { v4 as uuidv4 } from 'uuid'
 import { useState } from "react"
 import styled from "styled-components"
-import Input from "../Input/Index"
+import Input from "./Input/Index"
 import SpanButton from "../SpanButton/Index"
 
 const StyledItemForm = styled.form`

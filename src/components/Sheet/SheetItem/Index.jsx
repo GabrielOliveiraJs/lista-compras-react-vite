@@ -1,6 +1,6 @@
 import { useState } from "react"
 import styled from "styled-components"
-import SpanButton from "../SpanButton/Index"
+import SpanButton from "../../SpanButton/Index"
 import { FaDeleteLeft } from "react-icons/fa6"
 
 const StyledSheetItem = styled.li`

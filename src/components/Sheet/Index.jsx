@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import SheetItem from '../SheetItem/Index'
+import SheetItem from './SheetItem/Index'
 
 const StyledSheet = styled.ul`
         width: 100%;

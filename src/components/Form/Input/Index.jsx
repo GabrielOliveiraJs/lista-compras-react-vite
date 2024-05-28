@@ -1,11 +1,6 @@
 import styled from "styled-components"
 
-
-
 const StyledFormInput = styled.input`
-    /* width: ${({ $width }) => $width}; */
-    /* text-align: ${({ $textalign }) => $textalign}; */
-    /* padding: ${({ $padding }) => $padding}; */
     width: ${props => props.$width};
     text-align: ${props => props.$textalign};
     padding: ${props => props.$padding};
