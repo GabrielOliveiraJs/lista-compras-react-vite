@@ -16,9 +16,9 @@ const StyledWrapContainer = styled.div`
 
 function App() {
   const [itens, setItens] = useState(list)
-  const [sheetStyle, setSheetStyle] = useState()
+  const [theme, setTheme] = useState()
 
-  const addNewitem = (item) => {
+  const addNewItem = (item) => {
     setItens([...itens, item])
   }
 
@@ -29,7 +29,7 @@ function App() {
   return (
     <StyledWrapContainer>
       <h1>Lista de compras</h1>
-      <Form createdItem={item => addNewitem(item)} />
+      <Form createdItem={item => addNewItem(item)} />
       <Sheet itens={itens} deletedSelectedItem={deletedSelectedItem} />
     </StyledWrapContainer>
   )
