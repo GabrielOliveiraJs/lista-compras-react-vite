@@ -5,7 +5,7 @@ const StyledSpan = styled.span`
     justify-content: center;
     align-items: center;
     color: var(--color-text-btn);
-    color: ${({type}) => type === 'setQuantity' ? 'var(--color-title)' : 'var(--color-text-btn)'};
+    color: ${({type}) => type === 'setQuantity' ? 'var(--color-icon-btn)' : 'var(--color-icon-btn2)'};
     font-size: 1.6rem;
     transition: 0.4s;
     border: none;
@@ -14,7 +14,7 @@ const StyledSpan = styled.span`
     cursor: pointer;
 
     &:hover {
-        color: ${({type}) => type === 'setQuantity' ? 'var(--color-background-btn-hover)' : '#ff0011'}
+        color: ${({type}) => type === 'setQuantity' ? 'var(--color-icon-btn-hover)' : '#ff0011'}
     }
 `
 

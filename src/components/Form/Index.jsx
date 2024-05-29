@@ -29,13 +29,13 @@ const StyledFormButton = styled.button`
     align-items: center;
     border: none;
     background-color: transparent;
-    color: var(--color-text-btn);
+    color: var(--color-icon-btn);
     margin: 0 10px;
     transition: all 0.4s;
     cursor: pointer;
 
     &:hover {
-        color: var(--color-background-btn-hover);
+        color: var(--color-icon-btn-hover);
     }
 `
 

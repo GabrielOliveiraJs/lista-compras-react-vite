@@ -75,6 +75,7 @@ const StyledText = styled.p`
     text-transform: uppercase;
     margin: 0;
     position: relative;
+    color: var(--color-text);
 `
 
 const StyledQuantity = styled.p`
@@ -82,6 +83,7 @@ const StyledQuantity = styled.p`
     text-align: center;
     font-size: 1.2rem;
     margin: 0;
+    color: var(--color-text);
 `
 
 const SheetItem = ({ id, text, quantity, deleteItem }) => {

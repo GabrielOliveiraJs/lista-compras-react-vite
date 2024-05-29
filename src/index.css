@@ -13,9 +13,9 @@
     --color-background-checkbox: #fff;
     --color-outline-after: #5fd25f;
     --color-outline: #666;
-    --color-text-btn: #000;
-    --color-background-btn: #B0C4DE;
-    --color-background-btn-hover: #87cefa;
+    --color-icon-btn: #222;
+    --color-icon-btn2: #222;
+    --color-icon-btn-hover: #B0C4DE;
     --color-bg-scrollbar: #B0C4DE;
     --color-scrollbar: #000;
 }
@@ -29,9 +29,9 @@
     --color-background-checkbox: #fff;
     --color-outline-after: #5fd25f;
     --color-outline: #666;
-    --color-text-btn: #000;
-    --color-background-btn: #B0C4DE;
-    --color-background-btn-hover: #87cefa;
+    --color-icon-btn: #222;
+    --color-icon-btn2: #222;
+    --color-icon-btn-hover: #B0C4DE;
     --color-bg-scrollbar: #B0C4DE;
     --color-scrollbar: #000;
 }
@@ -45,9 +45,9 @@
     --color-background-checkbox: #edf6f9;
     --color-outline-after: #5fd25f;
     --color-outline: #F48C06;
-    --color-text-btn: #f2f2f2;
-    --color-background-btn: #FAA307;
-    --color-background-btn-hover: #FFBA08;
+    --color-icon-btn: #f2f2f2;
+    --color-icon-btn2: #F48C06;
+    --color-icon-btn-hover: #F48C06;
     --color-bg-scrollbar: #f2f2f2;
     --color-scrollbar: #F48C06;
 }
@@ -61,9 +61,9 @@
     --color-background-checkbox: #f2f2f2;
     --color-outline-after: #5fd25f;
     --color-outline: #03045E;
-    --color-text-btn: #f2f2f2;
-    --color-background-btn: #023E8A;
-    --color-background-btn-hover: #0077B6;
+    --color-icon-btn: #f2f2f2;
+    --color-icon-btn2: #03045E;
+    --color-icon-btn-hover: #03045E;
     --color-bg-scrollbar: #f2f2f2;
     --color-scrollbar: #023E8A;
 }
@@ -77,9 +77,9 @@
     --color-background-checkbox: #fdfffc;
     --color-outline-after: #5fd25f;
     --color-outline: #132A13;
-    --color-text-btn: #fdfffc;
-    --color-background-btn: #4F772D;
-    --color-background-btn-hover: #90A955;
+    --color-icon-btn: #fdfffc;
+    --color-icon-btn2: #4F772D;
+    --color-icon-btn-hover: #ECF39E;
     --color-bg-scrollbar: #fdfffc;
     --color-scrollbar: #4F772D;
 }
@@ -93,9 +93,9 @@
     --color-background-checkbox: #fdfffc;
     --color-outline-after: #5fd25f;
     --color-outline: #ffbfb3;
-    --color-text-btn: #393d3f;
-    --color-background-btn: #FEC89A;
-    --color-background-btn-hover: #FFD7BA;
+    --color-icon-btn: #393d3f;
+    --color-icon-btn2: #012a4a;
+    --color-icon-btn-hover: #ffbfb3;
     --color-bg-scrollbar: #FEC89A;
     --color-scrollbar: #393d3f;
 }
@@ -109,9 +109,9 @@
     --color-background-checkbox: #eee2df;
     --color-outline-after: #5fd25f;
     --color-outline: #774936;
-    --color-text-btn: #eee2df;
-    --color-background-btn: #774936;
-    --color-background-btn-hover: #9D6B53;
+    --color-icon-btn: #eee2df;
+    --color-icon-btn2: #eee2df;
+    --color-icon-btn-hover: #B07D62;
     --color-bg-scrollbar: #774936;
     --color-scrollbar: #eee2df;
 }
@@ -125,9 +125,9 @@
     --color-background-checkbox: #eee2df;
     --color-outline-after: #5fd25f;
     --color-outline: #C9A227;
-    --color-text-btn: #76520E;
-    --color-background-btn: #ffd700;
-    --color-background-btn-hover: #ffed00;
+    --color-icon-btn: #76520E;
+    --color-icon-btn2: #76520E;
+    --color-icon-btn-hover: #C9A227;
     --color-bg-scrollbar: #ffd700;
     --color-scrollbar: #76520E;
 }
@@ -141,9 +141,9 @@
     --color-background-checkbox: #f4f3ee;
     --color-outline-after: #5fd25f;
     --color-outline: #22223b;
-    --color-text-btn: #001524;
-    --color-background-btn: #edede9;
-    --color-background-btn-hover: #f7ede2;
+    --color-icon-btn: #edede9;
+    --color-icon-btn2: #001524;
+    --color-icon-btn-hover: #8d99ae;
     --color-bg-scrollbar: #edede9;
     --color-scrollbar: #8d99ae;
 }
