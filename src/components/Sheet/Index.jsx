@@ -8,7 +8,7 @@ const StyledSheet = styled.ul`
         background-color: var(--color-sheet);
         margin: 10px 0;
         overflow-y: scroll;
-        padding: 20px;
+        padding: 10px;
         border-radius: 20px;
 
         &::-webkit-scrollbar {

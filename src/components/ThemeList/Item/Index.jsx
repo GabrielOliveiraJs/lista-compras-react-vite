@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledOption = styled.option`
-
+   
 `
 
 const Item = ({ theme }) => {

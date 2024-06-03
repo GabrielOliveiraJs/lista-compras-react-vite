@@ -20,6 +20,14 @@ const StyledWrapContainer = styled.div`
     transition: 0.5s;
   `
 
+const StyledSelectSection = styled.section`
+  min-width: 100%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+`
+
 function App() {
   const [itens, setItens] = useState(list)
 
@@ -33,7 +41,9 @@ function App() {
 
   return (
     <StyledWrapContainer>
-      <ThemeList />
+      <StyledSelectSection>
+        <ThemeList />
+      </StyledSelectSection>
       <StyledTitle>Lista de compras</StyledTitle>
       <Form createdItem={item => addNewItem(item)} />
       <Sheet itens={itens} deletedSelectedItem={deletedSelectedItem} />
