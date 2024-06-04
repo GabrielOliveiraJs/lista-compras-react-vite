@@ -11,6 +11,10 @@ const StyledSheet = styled.ul`
         padding: 10px;
         border-radius: 20px;
 
+        @media screen and (max-width:650px) {
+            margin: 0 10px;
+        }
+
         &::-webkit-scrollbar {
             width: 10px;
         }

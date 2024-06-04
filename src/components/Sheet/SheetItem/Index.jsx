@@ -87,14 +87,10 @@ const StyledQuantity = styled.p`
 `
 
 const SheetItem = ({ id, text, quantity, deleteItem }) => {
-
     const [isChecked, setIsChecked] = useState(false)
+    
     const checkItem = () => {
-        if (isChecked === false) {
-            setIsChecked(true)
-        } else {
-            setIsChecked(false)
-        }
+        setIsChecked(isChecked === false ? true : false)
     }
 
     const getItem = (id) => {
