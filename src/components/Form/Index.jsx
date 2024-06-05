@@ -13,6 +13,10 @@ const StyledItemForm = styled.form`
     padding: 10px;
     margin: 10px;
     gap: 5px;
+
+    @media screen and (max-width:650px) {
+        flex-direction: column;
+    }
 `
 
 const StyledQtyContainer = styled.div`
