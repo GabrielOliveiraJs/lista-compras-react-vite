@@ -147,3 +147,20 @@
     --color-bg-scrollbar: #edede9;
     --color-scrollbar: #8d99ae;
 }
+
+.theme-purple:root {
+    --color-background: #3C096C;
+    --color-sheet: #9D4EDD;
+    --color-title: #edf2fb;
+    --color-text: #edf2fb;
+    --color-line: #240046;
+    --color-background-checkbox: #f4f3ee;
+    --color-outline-after: #5fd25f;
+    --color-outline: #240046;
+    --color-icon-btn: #edede9;
+    --color-icon-btn2: #240046;
+    --color-icon-btn-hover: #7B2CBF;
+    --color-bg-scrollbar: #E0AAFF;
+    --color-scrollbar: #240046;
+}
+
