@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import SheetItem from './SheetItem/Index'
+import InfoMessage from '../InfoMessage/Index'
 
 const StyledSheet = styled.ul`
         width: 100%;
@@ -38,15 +39,18 @@ const Sheet = ({ itens, deletedSelectedItem }) => {
     return (
         <StyledSheet>
             {
-                itens.map(item =>
-                    <SheetItem
-                        key={item.id}
-                        id={item.id}
-                        text={item.itemName}
-                        quantity={item.quantity}
-                        deleteItem={deleteItem}
-                    />
-                )
+                itens.length > 0 ?
+                    itens.map(item =>
+                        <SheetItem
+                            key={item.id}
+                            id={item.id}
+                            text={item.itemName}
+                            quantity={item.quantity}
+                            deleteItem={deleteItem}
+                        />
+                    )
+                    :
+                    <InfoMessage text="Uau, que vazio! Adicione um item!" />
             }
         </StyledSheet>
     )
