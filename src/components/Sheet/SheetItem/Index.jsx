@@ -43,7 +43,7 @@ const StyledCheckbox = styled.input`
     }
 
     &:checked::after {
-        background-image: url(../../public/assets/images/check-mark.png);
+        background-image: url(../images/check-mark.png);
         background-size: contain;
         content: '';
         height: 15px;
@@ -57,7 +57,7 @@ const StyledCheckbox = styled.input`
     }
 
     &:not(:checked)::after {
-        background-image: url(../../public/assets/images/check-mark.png);
+        background-image: url(../images/check-mark.png);
         background-size: contain;
         content: '';
         height: 15px;
